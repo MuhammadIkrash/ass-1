@@ -104,8 +104,29 @@ margin-bottom: -30px;
 .left::after{
     content: " <i class="date_dot fa-solid fa-circle"></i>";
 }
-
-
+.chg{
+  margin-left:140px ;
+}
+.chg:hover{
+  background-color: rgb(47, 46, 46)!important;
+}
+#hov:hover{
+  background-color: #090809 !important;
+  color: white !important;
+}
+#hov{
+  border: 1px solid black;
+}
+.box{
+border: 1px solid black;
+border-radius: 8px;
+padding: 2px;
+cursor: pointer;
+}
+.box:hover{
+background-color: #000000;
+color: #ffffff;
+}
 @media screen and (max-width: 800px) {
 
 .mar{
